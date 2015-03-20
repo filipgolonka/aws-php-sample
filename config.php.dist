@@ -1,0 +1,15 @@
+<?php
+return [
+    'client' => [
+        'key' => 'YOUR_ACCESS_KEY_ID',
+        'secret' => 'YOUR_SECRET_ACCESS_KEY',
+        'region' => 'APPLICATION_REGION_HERE',
+    ],
+    'labelPatterns' => [
+        '@^stage-(.+)$@',
+        '@^frontend-stage-(.+)$@',
+        '@^prod-(.+)$@',
+        '@^frontend-prod-(.+)$@',
+    ],
+    'leaveLastNVersions' => 2,
+];
